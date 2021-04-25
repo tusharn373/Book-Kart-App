@@ -5,7 +5,7 @@ public interface DAOProvider {
 	public static String DRIVER="com.mysql.jdbc.Driver";
 	public static String URL="jdbc:mysql://localhost:3306/emp";
 	public static String DBUSER="root";
-	public static String DBPASS="tushar97@";
+	public static String DBPASS="root";
 	//method declarations
 	public boolean validateUser(User u)throws Exception;
 	public List<String>getBookCat()throws Exception;
